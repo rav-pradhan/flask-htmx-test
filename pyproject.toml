@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "flask-htmx-prototype"
+version = "0.1.0"
+description = ""
+authors = ["Ravi"]
+readme = "README.md"
+packages = [{include = "flask_htmx_prototype"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "^2.2.2"
+pytest = "^7.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

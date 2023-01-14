@@ -1,0 +1,10 @@
+__pycache__
+.DS_Store
+.venv
+.pytest_cache
+test/.pytest_cache
+/.idea/*
+/.vscode/*
+!/.idea/runConfigurations
+!/.vscode/launch.json
+!/.vscode/tasks.json
